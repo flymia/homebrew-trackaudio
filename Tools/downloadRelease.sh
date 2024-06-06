@@ -4,7 +4,7 @@ VERSION=$(curl --header "Accept: Application/json" --silent "https://api.github.
 
 for i in "x64" "apple-silicon"
 do
-    wget https://github.com/pierr3/TrackAudio/releases/download/${VERSION}/trackaudio-1.1.0-beta.8-${i}.dmg -P downloads/
+    wget https://github.com/pierr3/TrackAudio/releases/download/${VERSION}/trackaudio-${VERSION}-${i}.dmg -P downloads/
 done
 
 echo "Version: $VERSION"
