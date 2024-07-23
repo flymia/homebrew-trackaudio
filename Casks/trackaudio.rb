@@ -1,13 +1,13 @@
 cask "trackaudio" do
     arch arm: "apple-silicon", intel: "x64"
-    version "1.1.0-beta.10"
+    version "1.3.0-beta.1"
 
     on_arm do
-      sha256 "86387cbc1fbb878072b26eb8e0103912233d1239e09c6cb5be5da0d58c87b77b"
+      sha256 "22672b2129ac6395ec23c0c495d5ddbe7a99b751ab2a85d8dc730207278a3fc0"
     end
 
     on_intel do
-      sha256 "8f6f7497430b71c1739c1721b7c2991a5db9487acd3e1de4cbb9593c47fd5dff"
+      sha256 "7a847523805c04b5691b3473630bc2b4b3c17d45cee3756729cd964cfbe02df8"
     end
     
     url "https://github.com/pierr3/TrackAudio/releases/download/#{version}/TrackAudio-#{version}-#{arch}.dmg"
