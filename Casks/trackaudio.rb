@@ -15,5 +15,9 @@ cask "trackaudio" do
     desc "A next generation Audio-For-VATSIM ATC Client for macOS, Linux and Windows."
     homepage "https://github.com/pierr3/TrackAudio"
 
+    zap trash: [
+        "~/Library/Application\ Support/TrackAudio"
+    ]
+
     app "TrackAudio.app"
 end
