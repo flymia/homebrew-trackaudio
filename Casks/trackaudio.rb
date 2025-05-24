@@ -16,7 +16,7 @@ cask "trackaudio" do
     homepage "https://github.com/pierr3/TrackAudio"
 
     zap trash: [
-        "~/Library/Application\ Support/TrackAudio"
+      "~/Library/Application Support/TrackAudio"
     ]
 
     app "TrackAudio.app"
